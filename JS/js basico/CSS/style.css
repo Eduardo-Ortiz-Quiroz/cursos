@@ -1,0 +1,19 @@
+html{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin:0 20px;
+    display: block;
+}
+img.imagen{
+    margin: 20px 0;
+    height: 300px;
+    border-radius: 15%;
+}
+img,input, button{
+    margin: 20px 0;
+    display: block;
+}
