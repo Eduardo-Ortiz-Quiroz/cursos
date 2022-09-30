@@ -7,11 +7,19 @@ body{
     padding: 0;
     margin:0 20px;
     display: block;
+    background: #40E0D0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+h1{
+    color: white;
 }
 img.imagen{
     margin: 20px 0;
     height: 300px;
     border-radius: 15%;
+    border: 2px solid white;
 }
 img,input, button{
     margin: 20px 0;
